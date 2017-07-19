@@ -16,6 +16,12 @@ body {
     
 }
 
+#additional-container {
+    position: absolute;
+    height: 100px;
+    width: 450px;
+}
+
 h1{
     font-size: 25px;
 }
@@ -26,9 +32,9 @@ h2 {
     
 }
 
-.header-properties {
+/*.header-properties {
     position: relative;
     top: 60vh;
     display: block;
     margin: 0;
-}
+}*/
