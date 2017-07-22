@@ -4,37 +4,34 @@ body {
 }
 
 #main-header {
-    height: 50vh;
-    display: block;
-    text-align: center;
+    height: 100vh;
     background-image: url('../obrazy/man-1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     overflow: visible;
     font-family: 'Verdana';
-    
 }
 
 #additional-container {
+    margin-left: 50px;
     position: absolute;
     height: 100px;
     width: 450px;
+    display: block;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    text-align: left;
 }
 
-h1{
+h1 {
+    margin: 0;
     font-size: 25px;
 }
 
 h2 {
+    margin: 0;
     font-size: 20px;
     padding-bottom: 20px;
-    
 }
-
-/*.header-properties {
-    position: relative;
-    top: 60vh;
-    display: block;
-    margin: 0;
-}*/
